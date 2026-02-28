@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DialogFreeDeta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="offer-banner">
+    🎁 5 GB දැන්ම දින ගන්න!
+</div>
+
+
+
+
+
+
+<div class="container">
+    <h2>DialogFreeDeta Registration</h2>
+
+    <form action="/register" method="POST">
+
+        <div class="input-group">
+            <input type="text" name="fullname" required>
+            <label>Full Name</label>
+        </div>
+
+        <div class="input-group">
+            <input type="email" name="email" required>
+            <label>Email</label>
+        </div>
+
+        <div class="input-group">
+            <input type="password" name="password" required>
+            <label>Password</label>
+        </div>
+
+        <div class="input-group">
+            <input type="tel" name="mobile" required>
+            <label>Mobile Number</label>
+        </div>
+        
+        <div class="register-message">
+    * Register and check your total balance 
+</div>
+
+
+
+        <button type="submit">Register</button>
+
+    </form>
+</div>
+
+<div class="notice-banner">
+    ⚠️ සැලකිය යුතුයි: දින 10 පමණක් වලංගු වේ
+</div>
+
+</body>
+</html>
